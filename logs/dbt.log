@@ -1,0 +1,29 @@
+[0m20:38:21.512638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106385fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ef3390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ef3750>]}
+
+
+============================== 20:38:21.549675 | 7410732d-e204-4d90-bc33-c7c6116fac07 ==============================
+[0m20:38:21.549675 [info ] [MainThread]: Running with dbt=1.12.3
+[0m20:38:21.551936 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'target_path': 'None', 'log_format': 'default', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'write_json': 'True', 'no_print': 'None', 'profiles_dir': '/Users/goke/.dbt', 'hints_enabled': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'introspect': 'True', 'static_parser': 'True', 'maximum_seed_size_mib': '1', 'warn_error': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'invocation_command': 'dbt init cdc_marketing --skip-profile-setup', 'log_cache_events': 'False', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True'}
+[0m20:38:21.663481 [info ] [MainThread]: Creating dbt configuration folder at /Users/goke/.dbt
+[0m20:38:21.665771 [debug] [MainThread]: Starter project path: /Users/goke/dbt_data_modelling/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m20:38:21.672686 [info ] [MainThread]: Your new dbt project "cdc_marketing" was created!
+Initialized new project in /Users/goke/dbt_data_modelling/cdc_marketing/cdc_marketing
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:38:21.691207 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.31564504, "process_in_blocks": "0", "process_kernel_time": 0.637462, "process_mem_max_rss": "127762432", "process_out_blocks": "0", "process_user_time": 2.035547}
+[0m20:38:21.691790 [debug] [MainThread]: Command `dbt init` succeeded at 20:38:21.691673 after 0.32 seconds
+[0m20:38:21.692052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110944fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109a1a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109a69c0>]}
+[0m20:38:21.692335 [debug] [MainThread]: Flushing usage events
+[0m20:38:23.102015 [debug] [MainThread]: An error was encountered while trying to flush usage events
